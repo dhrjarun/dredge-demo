@@ -1,0 +1,30 @@
+{
+  "name": "next-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "update-dredge": "npm install dredge-adapters@latest dredge-fetch@latest dredge-route@latest"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.51.23",
+    "dredge-adapters": "^0.5.6",
+    "dredge-fetch": "^0.5.5",
+    "dredge-route": "^0.4.5",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
